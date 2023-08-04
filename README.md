@@ -74,9 +74,9 @@ gme_revenue.rename(columns={'GameStop Quarterly Revenue (Millions of US $).1': '
 print(gme_revenue.tail())
 
 
-# Exercise 5 Plot Tesla Stock Graph
+# Question 5 Plot Tesla Stock Graph
 make_graph(tesla_data, tesla_revenue, 'Tesla')
 
 
-# Exercise 6 Plot GameStop Graph
+# Question 6 Plot GameStop Graph
 make_graph(gme_data, gme_revenue, 'GameStop')
